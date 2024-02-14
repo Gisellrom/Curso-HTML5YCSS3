@@ -7,6 +7,15 @@
     background: #CCCCCC;
     padding: 20px;
 }
+
+.titulo-principal {
+    padding-left: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
 p {
     text-align: center;
     
@@ -23,9 +32,6 @@ em strong{
     padding: 30px;
 }
 
-h2{
-    text-align: center;
-}
 
 .items{
     font-style: italic;
