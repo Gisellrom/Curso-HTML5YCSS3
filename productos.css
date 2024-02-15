@@ -6,7 +6,7 @@ nav li{
     margin: 0 0 0 15px;
 }
 nav a {
-    text-transform: uppercase;
+    text-transform: uppercase; /*TRANSFORMA EL TEXTO EN MAYÚSCUALAS*/
     color: #000000;
     font-weight: bold;
     font-size: 22px;
