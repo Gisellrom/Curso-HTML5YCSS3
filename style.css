@@ -1,49 +1,87 @@
-
-#banner {
-    width: 100%;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 20px;
+nav {
+    position: absolute;
+    top:110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase; /*TRANSFORMA EL TEXTO EN MAYÚSCUALAS*/
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#C78C19;
+    text-decoration: underline;
 }
 
-.titulo-principal {
-    padding-left: 30px;
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.titulo-centralizado{
+.productos li{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Para que respete la caja y no se salga*/
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-p {
-    text-align: center;
+.productos li:hover{
+    border-color:#C78C19;
     
 }
-em strong{
-    color: red;
+
+.productos li:active{
+    border-color: #0BBC19;
 }
 
-#mision{
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio {
     font-size: 20px;
-}
-.diferenciales {
-    background: #FFFFFF;
-    padding: 30px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-
-.items{
-    font-style: italic;
+footer {
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 40px;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagenDiferenciales{
-    width: 50%;
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }
