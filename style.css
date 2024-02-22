@@ -1,7 +1,12 @@
+body{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
 header{
     background-color: #BBBBBB;
     padding: 20px 0;
 }
+
 .caja {
     width: 940px;
     position: relative;
@@ -13,10 +18,12 @@ nav {
     top:110px;
     right: 0px;
 }
+
 nav li{
     display: inline;
     margin: 0 0 0 15px;
 }
+
 nav a {
     text-transform: uppercase; /*TRANSFORMA EL TEXTO EN MAYÚSCUALAS*/
     color: #000000;
@@ -24,6 +31,7 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
 nav a:hover{
     color:#C78C19;
     text-decoration: underline;
@@ -64,6 +72,7 @@ nav a:hover{
 .productos li:hover h2{
     font-size: 33px;
 }
+
 .producto-descripcion{
     font-size: 18px;
 }
@@ -90,6 +99,7 @@ main {
     width: 940px;
     margin: 0 auto;
 }
+
 form{
     margin: 40px 0;
 }
@@ -159,6 +169,7 @@ td, th{
 .principal p{
     margin: 0 0 1em;
 }
+
 .principal strong{
     font-weight: bold;
 }
@@ -169,10 +180,17 @@ td, th{
 
 .utencilios{
     width: 120px;
-    float: left;
+    float: left; /*Coloca el elemento en la lateral de nuestra página y dejar los otros elementos alrededor de él*/
     margin: 0 20px 20px 0;
 }
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
 
+}
 .imagenDiferenciales{
     width: 60%;
 }
