@@ -252,6 +252,7 @@ p::first-line{
 .imagen-diferenciales:hover{
     opacity: 0.3;
     transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
 }
 
 .video{
