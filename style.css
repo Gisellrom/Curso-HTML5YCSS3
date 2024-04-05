@@ -95,24 +95,65 @@ footer {
     margin: 20px;
 }
 
-form{
-    margin: 40px 0;
+
+.contacto {
+    text-align: center;
+    background-image: linear-gradient(WHITE,#BBBBBB);
 }
+
 
 form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
+
+.campo-texto{
+    margin: 10px 0px;
+}
+
+.campo-texto > div, textarea{
+    display: flex;
+    justify-content: center;
+}
+
 .input-padron{
     display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px;
     width: 50%;
+    border-radius: 2em;
+    border: 2px solid black
+}
+
+.input-padron:hover, textarea{
+    border: 2px solid #C78C19;
+}
+
+.radio{
+    display: inline-block;
+	margin-right: 20px;
 }
 
 .checkbox {
     margin: 20px 0;
+}
+
+.horario-dia{
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.horario-dia:hover{
+    background: #C78C19;
+    /*transform: scale(1.2) rotate(70deg); Para aumentar un elemento proporcionalmente*/
+    transform: scale(1.2);
 }
 
 .enviar {
@@ -121,7 +162,7 @@ form label, form legend{
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background: orange;
+    background: #C78C19;
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -134,19 +175,29 @@ form label, form legend{
     transform: scale(1.2);
 }
 
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
 table{
     margin: 40px 40px;
+    border: 2px solid #C78C19;
 }
 
 thead{
-    background: #555555;
+    background: #C78C19;
     color: white;
     font-weight: bold;
 }
 
 td, th{
-    border: 1px solid #000000;
+    border: 1px solid #C78C19;
     padding: 8px 15px;
+}
+
+tbody{
+    background: white;
 }
 
 /***** CSS para nuestra home*/
@@ -279,3 +330,5 @@ footer {
         width: 100%;
     }
 }
+
+

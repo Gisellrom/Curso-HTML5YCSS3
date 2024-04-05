@@ -18,43 +18,55 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="contacto">
         <form>
-            <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron" required>
+            <section class="campo-texto">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <div>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+                </div>
 
-            <label for="correoelectronico">Correo Electrónico</label>
-            <input type="email" name="" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                <label for="correoelectronico">Correo Electrónico</label>
+                <div>
+                    <input type="email" name="" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                </div>
 
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                <label for="telefono">Teléfono</label>
+                <div>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                </div>
 
-            <label for="mensaje">Mensaje</label>
-            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+                <label for="mensaje">Mensaje</label>
+                <div>
+                    <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+                </div>
+            </section>
             
             <fieldset>
                 <legend>¿Cómo le gustaría que lo contactemos?</legend>
-                <label for="radio-email">
-                    <input type="radio" name="contacto" id="radio-email" value="email">
-                    Email
-                </label>
-                
-    
-                <label for="radio-telefono">
-                    <input type="radio" name="contacto" id="radio-telefono" value="telefono">    
-                    Telefono
-                </label>
-                
-                
-                <label for="radio-whatsapp">
-                    <input type="radio" name="contacto" id="radio-whatsapp" value="whatsapp" checked>
-                    WhatsApp
-                </label>    
+                <div class="radio">
+                    <label for="radio-email">
+                        <input type="radio" name="contacto" id="radio-email" value="email">
+                        Email
+                    </label>
+                    
+        
+                    <label for="radio-telefono">
+                        <input type="radio" name="contacto" id="radio-telefono" value="telefono">    
+                        Telefono
+                    </label>
+                    
+                    
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contacto" id="radio-whatsapp" value="whatsapp" checked>
+                        WhatsApp
+                    </label>  
+                </div>  
             </fieldset>
 
             <fieldset>
-                <legend>¿En cuál horario prefiere ser atendido?</legend>
-                <select name="" id="">
+                <legend><b>¿En cuál horario prefiere ser atendido?</b></legend>
+                <select name="horario-dia" class="horario-dia">
                     <option>Mañana</option>
                     <option>Tarde</option>
                     <option>Noche</option>
@@ -63,35 +75,37 @@
             
             <label class="checkbox">
                 <input type="checkbox" name="" id="" checked>
-                ¿Le gustaría recibir novedades de la Barbería Alura?
+                <b>¿Le gustaría recibir novedades de la Barbería Alura?</b>
             </label>
 
 
             <input class="enviar" type="submit" value="Enviar formulario">
         </form>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Día</th>
-                    <th>Horario</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Lunes</td>
-                    <td>08h ~ 20 h</td>
-                </tr>
-                <tr>
-                    <td>Miércoles</td>
-                    <td>08h ~ 20 h</td>
-                </tr>
-                <tr>
-                    <td>Viernes</td>
-                    <td>08h ~ 20 h</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h ~ 20 h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>08h ~ 20 h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h ~ 20 h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer>
         <img src="./img/logo-blanco.png" alt="">
