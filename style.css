@@ -260,6 +260,10 @@ p::first-line{
     margin: 1em auto;
 }
 
+footer {
+    background-color: #000000;
+}
+
 @media screen and (max-width:480px){
     h1{
         text-align: center;
